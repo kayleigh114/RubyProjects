@@ -7,21 +7,21 @@ alpha_array = ["A", "B", "C", "D", "E",
 puts "What phrase do you want to cipher using the Caesar Cipher Method?"
 saying = gets.chomp
 puts "Choose a number:"
-caesar_key = gets.chomp.to_i
-length_here = saying.length
-new_saying = ""
+shifting_num = gets.chomp.to_i
+saying_length = saying.length
+ciphered_saying = ""
 
-for i in (0...length_here)
+for i in (0...saying_length)
   letter = saying[i]
-  number = alpha_array.index(letter.to_s.upcase)
-  new_number = number.to_i + caesar_key
-  if new_number > 25
-    new_number = new_number % 26
+  current_index_of_s = alpha_array.index(letter.to_s.upcase)
+  new_index_of_s = current_index_of_s.to_i + shifting_num
+  if new_index_of_s > 25
+    new_index_of_s = new_index_of_s % 26
   end
   if alpha_array.include?(letter.to_s.upcase)
-    new_saying << alpha_array[new_number].to_s
+    ciphered_saying << alpha_array[new_index_of_s].to_s
   else
-    new_saying << letter
+    ciphered_saying << letter
   end
 end
-puts new_saying.capitalize
+puts ciphered_saying.capitalize
