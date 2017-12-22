@@ -1,6 +1,6 @@
 # unsorted_array = [10, 12, 14, 64, 23, 1, 2, 0, 1, 2, 54, -1]
 
-def sort_this(array)
+def bubble_sort(array)
   counter = 0
   while counter < array.length do
     counter += 1
@@ -19,4 +19,4 @@ def sort_this(array)
   print "The sorted array: #{array}\n"
 end
 
-# sort_this(unsorted_array)
+# bubble_sort(unsorted_array)
