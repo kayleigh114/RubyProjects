@@ -1,11 +1,11 @@
 [Original assignment can be found on The Odin Project website](https://www.theodinproject.com/courses/ruby-programming/lessons/building-blocks)
 
-This a project is meant to emulate the Caesar Cipher,
+This project is meant to emulate the Caesar Cipher,
 by shifting plaintext letters to the right by a given number of slots.
 
 
 
-Download file onto computer. Inside of the Terminal:
+Clone project onto computer. Inside of the Terminal:
 
 
 `cd` to directory with CaesarCipher.rb in it.
