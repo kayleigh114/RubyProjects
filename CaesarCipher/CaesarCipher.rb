@@ -12,5 +12,5 @@ def caesar_cipher(phrase, shifting_num)
       ciphered_phrase << letter
     end
   end
-  puts ciphered_phrase.capitalize
+  return ciphered_phrase.capitalize
 end
