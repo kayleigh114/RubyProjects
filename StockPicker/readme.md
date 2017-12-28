@@ -19,7 +19,7 @@ Inside of the **Terminal**:
 
 ```
 git clone https://github.com/kayleigh114/RubyProjects.git
-cd StockPicker
+cd RubyProjects/StockPicker
 irb
 ```
 
