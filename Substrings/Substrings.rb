@@ -1,13 +1,3 @@
-=begin
-  defaults for test
-   = ["hi", "the", "be", "tea", "need", "eat", "aid", "he", "we",
-    "air", "bear", "ear", "nail", "ate", "wait", "mate"]
-
-  string = "Have a great time in the sun!"
-
-  https://www.theodinproject.com/courses/ruby-programming/lessons/building-blocks?ref=lnav
-=end
-
 def substrings(string, dictionary)
   array_of_string = string.downcase.split(" ")
   all_included_substrings = Hash.new
@@ -19,7 +9,5 @@ def substrings(string, dictionary)
       end
     end
   end
-  puts all_included_substrings
+  return all_included_substrings
 end
-
-# call for test substrings(string, dictionary)
