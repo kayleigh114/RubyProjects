@@ -1,6 +1,7 @@
 [Original assignment can be found on The Odin Project website](https://www.theodinproject.com/courses/ruby-programming/lessons/building-blocks)
 
-This project is meant to act as a basic string matcher.
+This project is meant to find the frequency of words
+from an array that are in a given string.
 
 
 It should take two **inputs**, a string and an array of words.
