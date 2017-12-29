@@ -1,9 +1,11 @@
 [Original assignment can be found on The Odin Project website](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks?ref=lnav)
 
-This project is meant to emulate some of the built-in Ruby Enumerable Methods.
+This project is meant to reimplement some of the basic
+built-in Ruby Enumerable Methods.
 
 
-These are all methods that have arrays as the basic **input**.
+These methods are all a part of the Enumerable Class,
+which are used on arrays.
 
 
 The **outputs** should be the same as the equivalent built-in Ruby method outputs.
