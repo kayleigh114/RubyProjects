@@ -1,6 +1,7 @@
 [Original assignment can be found on The Odin Project website](https://www.theodinproject.com/courses/ruby-programming/lessons/advanced-building-blocks?ref=lnav)
 
-This project is meant to act as a basic array sorter.
+This project is meant to act as a basic array sorter,
+using the Bubble Sort method.
 
 
 It should take an unsorted array as the **input**.
